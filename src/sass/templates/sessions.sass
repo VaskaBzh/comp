@@ -1,0 +1,32 @@
+.sessions
+  &__block
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    &-tile
+      width: 34%
+      min-height: 540px
+      color: $white
+      display: inline-flex
+      align-items: flex-end
+      padding: 0 40px 30px
+      position: relative
+      border-radius: 10px
+      margin-right: auto
+      font-family: 'ElMessiri'
+      font-weight: 700
+      font-size: 24px
+      line-height: 140%
+      background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(.jpg), url('../img/sessions-img.png') center / cover, #8e8e8e
+      border-bottom: 7px solid $blue
+    &-wrap
+      display: flex
+      flex-wrap: wrap
+      width: 64%
+      &-tile
+        min-height: 258px
+        width: 49%
+        margin-bottom: 24px
+        border-bottom: none
+        &:nth-child(2n)
+          margin-right: 0
